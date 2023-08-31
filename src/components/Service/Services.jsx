@@ -19,25 +19,22 @@ const Services = () => {
         <Slide direction="left">
           <Card
             Icon={MdDesignServices}
-            title={"ui/ux designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            title={"Ux&Ui Designer"}
+            disc={`I excel in crafting UX/UI designs for web and mobile apps, seamlessly merging form and function.`}
           />
         </Slide>
         <Slide direction="up">
           <Card
             Icon={FiCodesandbox}
-            title={"graphic designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            title={"Figma"}
+            disc={`I use Figma to create web application and app designs. In Figma, I build design systems and components to streamline the process.`}
           />
         </Slide>
         <Slide direction="right">
           <Card
             Icon={CgWebsite}
-            title={"web designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            title={"Canva Cesigner"}
+            disc={`I utilize Canva Pro for graphic design, including social media content, posters, logos, and various other design projects.`}
           />
         </Slide>
       </Cards>

@@ -7,6 +7,8 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
 import { BsFacebook, BsSlack } from "react-icons/bs";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
+import { BiLogoUpwork } from "react-icons/bi";
+
 
 const Footer = () => {
   const scrollUp = () => {
@@ -26,7 +28,7 @@ const Footer = () => {
             <h1>Address:</h1>
           </Slide>
           <Slide direction="left">
-            <p>1030 Southwood Dr San Luis Obispo, California(CA), 93401</p>
+            <p>Mujahid colony Konodass Gilgit Baltistan</p>
           </Slide>
         </div>
         <div className="links">
@@ -38,7 +40,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="tel:+4733378901">+47 333 78 901</a>
+              <a href="tel:+4733378901">+923554500223</a>
             </Slide>
           </div>
           <div>
@@ -48,7 +50,7 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:miladamiri@gmail.com">miladamiri@gmail.com</a>
+              <a href="mailto:miladamiri@gmail.com">saharhamiya29@gmail.com</a>
             </Slide>
           </div>
         </div>
@@ -59,32 +61,26 @@ const Footer = () => {
           <div className="icons">
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://github.com/aqsa-sahar" target="_blank">
                   <AiFillGithub />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/aqsa-sahar-236224259" target="_blank">
                   <AiFillLinkedin />
                 </a>
               </span>
             </Zoom>
             <Zoom>
-              <span>
-                <a href="/">
-                  <BsFacebook />
+            <span>
+                <a href="https://www.upwork.com/freelancers/~01ba71c7efae60d907" target="_blank">
+                  <BiLogoUpwork />
                 </a>
               </span>
             </Zoom>
-            <Zoom>
-              <span>
-                <a href="/">
-                  <BsSlack />
-                </a>
-              </span>
-            </Zoom>
+        
           </div>
         </div>
         <Fade>

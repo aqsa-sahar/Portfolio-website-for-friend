@@ -1,41 +1,36 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { GiEarthAmerica } from "react-icons/gi";
+import { AiFillBehanceCircle } from "react-icons/ai";
+import { BiLogoUpwork } from "react-icons/bi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
+import Aqsa from "../../img/aqsaa.jpg"
 
 const ProfComponent = () => {
   return (
     <Container id="home">
       <Slide direction="left">
         <Texts>
-          <h4>
-            Hello <span className="green">I'am</span>
-          </h4>
-          <h1 className="green">Milad Amiri</h1>
-          <h3>UX/UI Designer and graphic designer</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            iusto. Adipisci in qui officia provident tenetur sequi, deserunt
-            corporis quos?
-          </p>
+          <h4>Hello <span class="green">I am</span></h4>
+          <h1 class="green">Aqsa Sahar</h1>
+          <h3>Experienced UX/UI Designer</h3>
+        <p>  Hi! I'm a UX/UI designer creating seamless experiences that fuse form and function. With user-centered design, I bring creativity and expertise to each project.</p>
           <button>Let's talk</button>
           <Social>
             <p>Check out my</p>
             <div className="social-icons">
               <span>
-                <a href="/">
-                  <AiOutlineInstagram />
+                <a href="behance.net/aqsasahar" target="_blank">
+                  <AiFillBehanceCircle />
                 </a>
               </span>
               <span>
-                <a href="/">
-                  <GiEarthAmerica />
+                <a href="https://www.upwork.com/freelancers/~01ba71c7efae60d907" target="_blank">
+                  <BiLogoUpwork />
                 </a>
               </span>
               <span>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/aqsa-sahar-236224259" target="_blank">
                   <FaLinkedinIn />
                 </a>
               </span>
@@ -46,7 +41,7 @@ const ProfComponent = () => {
       <Slide direction="right">
         <Profile>
           <img
-            src="https://res.cloudinary.com/ghazni/image/upload/v1659082282/Yt-portfolio/Untitled-1_drcspz.png"
+            src={Aqsa}
             alt="profile"
           />
         </Profile>
