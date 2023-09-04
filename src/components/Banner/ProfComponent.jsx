@@ -20,7 +20,7 @@ const ProfComponent = () => {
             <p>Check out my</p>
             <div className="social-icons">
               <span>
-                <a href="behance.net/aqsasahar" target="_blank">
+                <a href="https://www.behance.net/aqsasahar" target="_blank">
                   <AiFillBehanceCircle />
                 </a>
               </span>
